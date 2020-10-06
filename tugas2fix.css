@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(201, 236, 252);
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.satu{
+    margin-top: 5px;
+}
+
+.col-4, .col-8{
+    background-color: white;
+}
+
+.col-4{
+    border-right: 3px dashed rgb(201, 236, 252);
+}
+
+.mb-3{
+    background-color: rgb(201, 236, 252);
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.tengah{
+    margin-left: 50px;
+}
+
+.tepi{
+    margin-left: 13px;
+}
+
+.biodata{
+    margin-top: 15px;
+}
+
+.myfoto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 180px;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.fotoku:hover{
+    width: 55%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.atas{
+    margin-top: 8px;
+}
+
+.bg-data{
+    background-color: rgb(201, 236, 252);
+}
+
+.card-header{
+    background-color: skyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon img{
+    width: 50px;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.carousel{
+    margin-top: 0;
+    border-bottom: 1px dotted rgb(201, 236, 252);
+}
+
+.carouselExampleIndicators{
+    justify-content: center;
+}
+
+.carousel-inner{
+    height: 585px;
+    margin: 0;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: unset;
+    /* border: 1px solid black; */
+}
+
+/* .navbar{
+    border: 1px solid black;
+} */
+
+.nav-link{
+    margin: 7px;
+}
+
+.nav-link:hover{
+    background-color:  rgb(201, 236, 252);
+    border-left: 4px solid skyblue;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+  
+.social-media-icon{
+    width: 40px;
+    margin: 8px;
+}
+
+.social-media-icon:hover{
+    background-color: skyblue;
+    width: 55px;
+}
+  
+.find-me{
+    margin: 50px;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px;
+    margin: 0px 128px;
+    background-color: skyblue;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+   	font-weight: bold;
+}
